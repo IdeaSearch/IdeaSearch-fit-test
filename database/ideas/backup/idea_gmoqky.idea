@@ -1,0 +1,1 @@
+A * exp(gamma * (1 - 2) * t) * (cos(omega * t + param1) + param2)

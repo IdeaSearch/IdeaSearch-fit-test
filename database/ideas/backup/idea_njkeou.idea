@@ -1,0 +1,1 @@
+A * exp(param1 * arctan(param2 * omega / gamma) - param3 * gamma * t)

@@ -1,0 +1,1 @@
+A * (param1 + exp(-gamma * t) * cos(sqrt(omega**2 - gamma**2) * t + arctan(gamma / omega)))

@@ -1,0 +1,1 @@
+A * (param1 * square(gamma / omega) + exp(-gamma * t) * (cos(t * sqrt(square(omega) - square(gamma))) - param1 * square(gamma / omega)))

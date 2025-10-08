@@ -1,0 +1,52 @@
+==================================================
+           Pareto Frontier Report
+==================================================
+
+Complexity: 14
+Mean Square Error: 71.37496
+Formula: A * (param1 + exp(-gamma * t) * cos(omega * t))
+Timestamp: 251008_165558
+Best Parameters:  param1: 2.788536
+
+--------------------------------------------------
+
+Complexity: 16
+Mean Square Error: 43.30903
+Formula: A * exp(-gamma * t) * (cos(omega * t + param1) + param2)
+Timestamp: 251008_171327
+Best Parameters:  param1: 4.7294243  param2: 3.1613597
+
+--------------------------------------------------
+
+Complexity: 17
+Mean Square Error: 41.3563
+Formula: A * (param1 + cos(omega * t + param2)) * exp(-gamma * t)
+Timestamp: 251008_165743
+Best Parameters:  param1: 2.788536  param2: -9.4997849
+
+--------------------------------------------------
+
+Complexity: 19
+Mean Square Error: 38.01588
+Formula: A * (param1 * tanh(gamma / omega) + exp(-gamma * t) * cos(omega * t))
+Timestamp: 251008_165901
+Best Parameters:  param1: 4.7294243
+
+--------------------------------------------------
+
+Complexity: 20
+Mean Square Error: 23.75251
+Formula: A * exp(-gamma * t) * (cos(omega * t + param1) + param2 * gamma * t)
+Timestamp: 251008_170312
+Best Parameters:  param1: 4.7294243  param2: 5.5248507
+
+--------------------------------------------------
+
+Complexity: 35
+Mean Square Error: 22.5846
+Formula: A * (param1 * tanh(param2 * gamma / omega) * (1 - exp((-2) * gamma * t)) + exp((-1) * gamma * t) * cos(omega * t))
+Timestamp: 251008_171726
+Best Parameters:  param1: -1.5615636  param2: -9.4040556
+
+--------------------------------------------------
+

@@ -1,0 +1,1 @@
+A * (param1 * omega / gamma + square(sin(omega * t + param2))) * exp(-param3 * gamma * t)

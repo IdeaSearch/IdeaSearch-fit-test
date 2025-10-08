@@ -1,0 +1,1 @@
+param1*A*(omega/gamma)*exp(-param2*gamma*t)*(param4 + square(sin(sqrt(square(omega) - square(gamma))*t + param3)))

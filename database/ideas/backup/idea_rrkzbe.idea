@@ -1,0 +1,1 @@
+A * (param1 * arccos(gamma / sqrt(omega**2 + gamma**2)) + exp(-gamma * t) * cos(omega * t))

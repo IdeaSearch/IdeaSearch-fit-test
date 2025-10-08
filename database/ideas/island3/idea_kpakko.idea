@@ -1,0 +1,1 @@
+A * ((param1 + param2 * log(gamma / omega)) * (1 - exp(-gamma * t)) + exp(-gamma * t) * cos(omega * t))
