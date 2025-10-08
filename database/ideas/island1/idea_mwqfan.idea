@@ -1,1 +1,0 @@
-A * (1 + param1 * tanh(param2 * omega / gamma)) * exp(-param3 * gamma * t) * square(cos(sqrt(abs(square(omega) - square(gamma))) * t) + param4 * sin(gamma * t))

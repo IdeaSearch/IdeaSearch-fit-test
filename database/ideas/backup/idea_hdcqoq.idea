@@ -1,0 +1,1 @@
+param1*A*sqrt(gamma*omega)*t*exp(-param2*sqrt(gamma*omega)*t)

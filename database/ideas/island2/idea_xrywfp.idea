@@ -1,0 +1,1 @@
+param1 * A * omega * t / (1 + param2 * square(gamma * t))

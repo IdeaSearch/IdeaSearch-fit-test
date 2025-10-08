@@ -1,1 +1,0 @@
-A*(exp(-gamma*t)*cos(sqrt(square(omega) - square(gamma))*t + param1) + param2*omega/gamma)

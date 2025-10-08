@@ -1,0 +1,1 @@
+param1 * A * (exp(-gamma * t) - exp(-param2 * omega * t))

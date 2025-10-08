@@ -1,0 +1,1 @@
+A * exp(-gamma * t) * cos(omega * t) + param1 * A * tanh(gamma * t)

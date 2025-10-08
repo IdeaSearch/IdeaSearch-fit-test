@@ -1,1 +1,0 @@
-A * log(param1 + omega/gamma) * exp(-param2 * gamma * t) * (param3 + tanh(sin(sqrt(abs(omega**2 - gamma**2)) * t)))

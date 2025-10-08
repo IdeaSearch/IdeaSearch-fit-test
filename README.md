@@ -28,3 +28,48 @@ Execute the following command from the project's root directory to start the pro
 ```bash
 python -m run
 ```
+
+## 4\. View results
+
+**database/pic/database_assessment.png**
+![database score](database/pic/database_assessment.png)
+
+**fit_results/pareto_report.txt**
+
+```txt
+==================================================
+           Pareto Frontier Report
+==================================================
+
+Complexity: 13
+Mean Square Error: 1957.473
+Formula: param1 * A * omega * t * exp(-gamma * t)
+Timestamp: 251008_180040
+Best Parameters:  param1: 2.788536
+
+--------------------------------------------------
+
+Complexity: 14
+Mean Square Error: 37.65547
+Formula: param1 * A * tanh(omega * t) * exp(-gamma * t)
+Timestamp: 251008_180011
+Best Parameters:  param1: 4.7294243
+
+--------------------------------------------------
+
+Complexity: 15
+Mean Square Error: 37.45705
+Formula: param1 * A * (exp(-gamma * t) - exp(-omega * t))
+Timestamp: 251008_175249
+Best Parameters:  param1: 4.7294243
+
+--------------------------------------------------
+
+Complexity: 21
+Mean Square Error: 16.00497
+Formula: A * exp(param1 * tanh(param2 * exp((1-2) * gamma * t) * cos(omega * t)))
+Timestamp: 251008_180300
+Best Parameters:  param1: 4.7294243  param2: 0.1158036
+
+--------------------------------------------------
+```

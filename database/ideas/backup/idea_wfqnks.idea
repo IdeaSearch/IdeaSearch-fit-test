@@ -1,0 +1,1 @@
+A * (param1 + exp(-gamma * t) * (cos(sqrt(abs(square(omega) - square(gamma))) * t) + gamma / sqrt(abs(square(omega) - square(gamma)) + square(param2)) * sin(sqrt(abs(square(omega) - square(gamma))) * t)))

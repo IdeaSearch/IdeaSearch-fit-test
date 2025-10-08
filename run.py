@@ -48,7 +48,7 @@ def main():
         generate_fuzzy = True,
         perform_unit_validation = True,
         optimization_method = "L-BFGS-B",
-        optimization_trial_num=5, 
+        optimization_trial_num = 5, 
     )
 
     ideasearcher = IdeaSearcher()

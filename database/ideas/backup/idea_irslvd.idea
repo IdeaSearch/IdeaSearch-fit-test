@@ -1,1 +1,0 @@
-param1 * A * tanh(param2 * omega / gamma) * exp((1 - 2) * param3 * gamma * t) * abs(cos(param4 * omega * t + param5))
